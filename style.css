@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'Adigiana_2'; /* Название шрифта */
+    src: url(./Adigiana_2.ttf); /* Путь к файлу шрифта */
+    /* Дополнительные параметры и стили могут быть добавлены по необходимости */
+  }
+
+body {
+  margin: 0;
+  font-family: 'Adigiana_2', sans-serif; /* Используйте название шрифта в свойстве font-family */
+  
+}
+/* Это блок1 */
+.block1{
+    background-image:url(./img/fon.jpg);
+    width: 99.2vw;
+    height: 52.49vw;
+    background-size:cover;
+}
+/* Логотип Ракеты*/
+.logo{
+    width: 15.63vw; /* Установите нужную ширину */
+    height: 15.63vw; /* Установите нужную высоту */
+    border-radius: 50%; /* Установите радиус, равный половине ширины или высоты */
+    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    margin-left: 2.60vw;
+    margin-top: 2.60vw;
+}
+/* Это текст в h1*/
+.text1{
+    margin-top: 19.79vw;
+    color: rgb(218,59,46);
+    font-size: 3.13vw;
+    width: 46.88vw;
+    margin-left: 3.39vw;
+    text-shadow: 0.21vw 0.21vw 0.21vw black;
+}
+.button1 {
+    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
+    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    padding: 10px 20px;
+    width: 200px;
+    margin-top: -50px;
+    height: 85px;
+    font-size: 16px;
+    font-family: 'Adigiana_2', sans-serif;
+    background-color: rgb(192,77,50);
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left:1650px
+  }
+/* Это блок2 */
+.block2{
+    background-image:url(./img/Fon2.png);
+    width: 99.2vw;
+    height: 56vw;
+    background-size:cover;
+}
+.pos1{
+    margin-left:240px ;
+    width: 400px;
+}
+.img1{
+    margin-top: 270px;
+    width: 350px;
+    height: auto;
+
+}
+.p1{
+    margin-top: -10px;
+    font-size: 35px;
+    width: 300px;
+    text-align: center;
+    margin-left:0px ;
+
+}
+.pos2{
+    margin-left:140px ;
+    width: 400px;
+}
+.img2{
+    margin-top: 300px;
+    width: 350px;
+    height: auto;
+}
+.p2{
+    margin-top: -10px;
+    font-size: 35px;
+    width: 300px;
+    text-align: center;
+    margin-left:25px ;
+}
+.pos3{
+    margin-left:180px ;
+    width: 400px;
+}
+.img3{
+    margin-top: 300px;
+    width: 350px;
+    height: auto;
+}
+.p3{
+    margin-top: -10px;
+    font-size: 35px;
+    width: 300px;
+    text-align: center;
+    margin-left:0px ;
+}
+.flex{
+    display: flex;
+}
+.raketa1{
+    text-align: center;
+    width: 700px;
+    margin-left: 600px;
+    font-size: 40px;
+    margin-top: -25px;
+}
+.button2 {
+    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
+    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    padding: 10px 20px;
+    width: 250px;
+    height: 115px;
+    font-size: 16px;
+    font-family: 'Adigiana_2', sans-serif;
+    background-color: rgb(192,77,50);
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left:825px
+  }
+
+  .block3{
+    background-image:url(./img/Fon3.png);
+    width: 99.2vw;
+    height: 56vw;
+    background-size:cover;
+    position: flex;
+}
+.textzx{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 625px;
+position: absolute;
+}
+.qwe{
+    width: 400px;
+    margin-top: 350px;
+    margin-left: 275px;
+}
+.posqwe{
+    position: absolute;
+    margin-left: 270px;
+    margin-top:300px;
+    font-size:40px;
+    color: white;
+}
+.qwe1{
+    width: 400px;
+position: absolute;
+margin-top: -375px;
+    margin-left: 805px;
+}
+.posqwe1{
+    position: absolute;
+    margin-left: 865px;
+    margin-top:-450px;
+    font-size:40px;
+    color: white;
+}
+.qwe2{
+    width: 400px;
+position: absolute;
+margin-top: -375px;
+    margin-left: 1225px;
+}
+.posqwe2{
+    position: absolute;
+    margin-left: 1305px;
+    margin-top:-450px;
+    font-size:40px;
+    color: white;
+}
+.block4{
+    background-image:url(./img/Fon4.png);
+    width: 99.2vw;
+    height: 63vw;
+    background-size:cover;
+    position: flex;
+}
+.text0{
+    color: rgb(218,59,46);
+    font-size: 3.13vw;
+    width: 46.88vw;
+    text-shadow: 0.21vw 0.21vw 0.21vw black;
+    margin-left: 550px;
+}
+.text01{
+    color: rgb(218,59,46);
+    font-size: 2.13vw;
+    width: 46.88vw;
+    text-shadow: 0.21vw 0.21vw 0.21vw black;
+    margin-left: 150px;
+}
+.text012{
+    color: rgb(218,59,46);
+    font-size: 2.13vw;
+    text-shadow: 0.21vw 0.21vw 0.21vw black;
+
+}
+.pz1{
+    margin-top: 100px;
+    width: 600px;
+    margin-left:-10px;
+}
+.new{
+    width: 500px;
+    display: grid;
+    margin-left: 120px;
+    height: 600px;
+}
+.button3 {
+    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
+    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    padding: 10px 20px;
+    width: 250px;
+    height: 115px;
+    font-size: 16px;
+    font-family: 'Adigiana_2', sans-serif;
+    background-color: rgb(192,77,50);
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left:245px;
+    margin-top: 30px;
+}
+.pz12{
+    margin-top: 50px;
+    text-align: center;
+    width: 1000px;
+    margin-left:-10px;
+}
+.button4 {
+    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
+    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    padding: 10px 20px;
+    width: 250px;
+    height: 115px;
+    font-size: 16px;
+    font-family: 'Adigiana_2', sans-serif;
+    background-color: rgb(192,77,50);
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left:45px;
+    margin-top: 30px;
+}
+.button33 {
+    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
+    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    padding: 10px 20px;
+    width: 150px;
+    height: 55px;
+    font-size: 16px;
+    font-family: 'Adigiana_2', sans-serif;
+    background-color: rgb(192,77,50);
+    color:white;
+    font-size: 27px;
+    cursor: pointer;
+    margin-left:45px;
+    margin-top: 30px;
+}
+.block5{
+    background-image:url(./img/Fon5.png);
+    width: 99.2vw;
+    height: 56vw;
+    background-size:cover;
+    position: flex;
+}
+.textnew{
+    color: white;
+    font-size: 2.13vw;
+    width: 46.88vw;
+    text-shadow: 0.21vw 0.21vw 0.21vw black;
+    margin-left: 500px;
+}
+.textnew2{
+    color: white;
+    font-size: 2.13vw;
+    width: 46.88vw;
+    text-shadow: 0.21vw 0.21vw 0.21vw black;
+    margin-left: 555px;
+}
+.textnew1{
+    color:black;
+    font-size: 2.13vw;
+    width: 46.88vw;
+    text-shadow: 0.21vw 0.21vw 0.21vw white;
+    margin-left: 500px;
+    text-align: center;
+}
+.block6{
+    background-image:url(./img/Fon5.png);
+    width: 99.2vw;
+    height: 61vw;
+    background-size:cover;
+    position: flex;
+}
+.textnew3{
+    color: white;
+    font-size: 2.13vw;
+    width: 46.88vw;
+    text-shadow: 0.21vw 0.21vw 0.21vw black;
+    margin-left: 375px;
+}
+.button22 {
+    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
+    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    padding: 10px 20px;
+    width: 300px;
+    height: 115px;
+    font-size: 16px;
+    font-family: 'Adigiana_2', sans-serif;
+    background-color: rgb(192,77,50);
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left:790px;
+    margin-top:50px;
+  }
