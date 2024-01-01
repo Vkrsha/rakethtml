@@ -1,31 +1,30 @@
 @font-face {
-    font-family: 'Adigiana_2'; /* Название шрифта */
-    src: url(./Adigiana_2.ttf); /* Путь к файлу шрифта */
-    /* Дополнительные параметры и стили могут быть добавлены по необходимости */
+    font-family: 'Adigiana_2'; 
+    src: url(./Adigiana_2.ttf); 
   }
 
 body {
   margin: 0;
-  font-family: 'Adigiana_2', sans-serif; /* Используйте название шрифта в свойстве font-family */
+  font-family: 'Adigiana_2', sans-serif;
   
 }
-/* Это блок1 */
+
 .block1{
     background-image:url(./img/fon.jpg);
     width: 99.2vw;
     height: 52.49vw;
     background-size:cover;
 }
-/* Логотип Ракеты*/
+
 .logo{
-    width: 15.63vw; /* Установите нужную ширину */
-    height: 15.63vw; /* Установите нужную высоту */
-    border-radius: 50%; /* Установите радиус, равный половине ширины или высоты */
-    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    width: 15.63vw;
+    height: 15.63vw; 
+    border-radius: 50%; 
+    object-fit: cover; 
     margin-left: 2.60vw;
     margin-top: 2.60vw;
 }
-/* Это текст в h1*/
+
 .text1{
     margin-top: 19.79vw;
     color: rgb(218,59,46);
@@ -35,8 +34,8 @@ body {
     text-shadow: 0.21vw 0.21vw 0.21vw black;
 }
 .button1 {
-    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
-    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    border-radius: 20%; 
+    object-fit: cover;
     padding: 10px 20px;
     width: 200px;
     margin-top: -50px;
@@ -49,7 +48,7 @@ body {
     cursor: pointer;
     margin-left:1650px
   }
-/* Это блок2 */
+
 .block2{
     background-image:url(./img/Fon2.png);
     width: 99.2vw;
@@ -117,8 +116,8 @@ body {
     margin-top: -25px;
 }
 .button2 {
-    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
-    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    border-radius: 20%; 
+    object-fit: cover;
     padding: 10px 20px;
     width: 250px;
     height: 115px;
@@ -221,8 +220,8 @@ margin-top: -375px;
     height: 600px;
 }
 .button3 {
-    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
-    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    border-radius: 20%; 
+    object-fit: cover;
     padding: 10px 20px;
     width: 250px;
     height: 115px;
@@ -242,8 +241,8 @@ margin-top: -375px;
     margin-left:-10px;
 }
 .button4 {
-    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
-    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    border-radius: 20%; 
+    object-fit: cover;
     padding: 10px 20px;
     width: 250px;
     height: 115px;
@@ -257,8 +256,8 @@ margin-top: -375px;
     margin-top: 30px;
 }
 .button33 {
-    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
-    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    border-radius: 20%; 
+    object-fit: cover; 
     padding: 10px 20px;
     width: 150px;
     height: 55px;
@@ -315,8 +314,8 @@ margin-top: -375px;
     margin-left: 375px;
 }
 .button22 {
-    border-radius: 20%; /* Установите радиус, равный половине ширины или высоты */
-    object-fit: cover; /* Это свойство поможет сохранить пропорции изображения */
+    border-radius: 20%; 
+    object-fit: cover; 
     padding: 10px 20px;
     width: 300px;
     height: 115px;
